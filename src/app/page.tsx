@@ -5,7 +5,7 @@ import Skills from '@/components/Skills';
 
 export default function Home() {
   return (
-    <div className="bg-gray-900 text-white min-h-screen">
+    <div className="bg-white text-gray-900 min-h-screen">
       <Header />
       <main className="container mx-auto">
         <Hero />
