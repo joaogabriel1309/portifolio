@@ -6,9 +6,9 @@ export default function Header() {
   return (
     <header className="flex justify-between items-center p-6 bg-white text-gray-600">
       <div className="flex items-center space-x-4">
-        <a href="/" className="hover:text-cyan-400 transition-colors">
+      <Link href="/" className="hover:text-cyan-400 transition-colors">
           <h1 className="text-2xl font-bold">&lt;João/&gt;</h1>
-        </a>
+        </Link>
 
         <nav className="hidden md:flex space-x-6">
           <Link
