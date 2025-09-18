@@ -25,12 +25,12 @@ export default function Hero() {
         </div>
       </div>
       <div className="flex-1 flex justify-center md:justify-end mt-8 md:mt-0">
-        <div className="rounded-full overflow-hidden w-64 h-64 md:w-80 md:h-80 border-4 border-cyan-400 shadow-xl">
+        <div className="rounded-full overflow-hidden w-94 h-94 md:w-95 md:h-95 border-4 border-cyan-400 shadow-xl">
           <Image
-            src="/joao-gabriel.png" // Certifique-se de ter essa imagem em sua pasta 'public'
+            src="/image/joao-gabriel.jpeg" // Certifique-se de ter essa imagem em sua pasta 'public'
             alt="João Gabriel"
-            width={320}
-            height={320}
+            width={620}
+            height={620}
             layout="responsive"
             className="w-full h-full object-cover"
           />
