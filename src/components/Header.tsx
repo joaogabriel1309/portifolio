@@ -6,20 +6,20 @@ export default function Header() {
   return (
     <header className="flex justify-between items-center p-6 bg-white text-gray-600">
       <div className="flex items-center space-x-4">
-      <Link href="/" className="hover:text-cyan-400 transition-colors">
+      <Link href="/" className="hover:text-blue-400 transition-colors">
           <h1 className="text-2xl font-bold">&lt;João/&gt;</h1>
         </Link>
 
         <nav className="hidden md:flex space-x-6">
           <Link
-            href="#projetos"
-            className="hover:text-cyan-400 transition-colors"
+            href="/projetos"
+            className="hover:text-blue-400 transition-colors"
           >
             Projetos
           </Link>
           <Link
             href="#servicos"
-            className="hover:text-cyan-400 transition-colors"
+            className="hover:text-blue-400 transition-colors"
           >
             Serviços
           </Link>
@@ -32,7 +32,7 @@ export default function Header() {
           rel="noopener noreferrer"
           aria-label="Github"
         >
-          <FaGithub className="text-2xl hover:text-cyan-400 transition-colors" />
+          <FaGithub className="text-2xl hover:text-blue-400 transition-colors" />
         </Link>
         <Link
           href="https://www.linkedin.com/in/joaogabriel130920/"
@@ -40,7 +40,7 @@ export default function Header() {
           rel="noopener noreferrer"
           aria-label="LinkedIn"
         >
-          <FaLinkedin className="text-2xl hover:text-cyan-400 transition-colors" />
+          <FaLinkedin className="text-2xl hover:text-blue-400 transition-colors" />
         </Link>
         <Link
           href="https://wa.me/65999755911"
@@ -48,7 +48,7 @@ export default function Header() {
           rel="noopener noreferrer"
           aria-label="Whatsapp"
         >
-          <FaWhatsapp className="text-2xl hover:text-cyan-400 transition-colors" />
+          <FaWhatsapp className="text-2xl hover:text-blue-400 transition-colors" />
         </Link>
         {/* <button className="bg-gray-700 w-12 h-6 rounded-full flex items-center p-1 focus:outline-none">
           <span className="w-4 h-4 rounded-full bg-gray-400 transition-transform transform translate-x-0"></span>
